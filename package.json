@@ -1,0 +1,13 @@
+{
+  "name": "amor-animal",
+  "version": "1.0.0",
+  "description": "Projeto final da ONG Amor Animal com práticas de acessibilidade e versionamento.",
+  "scripts": {
+    "build:css": "npx clean-css-cli -o assets/css/style.min.css assets/css/style.css",
+    "build:js": "npx terser assets/js/app.js -o assets/js/app.min.js"
+  },
+  "devDependencies": {
+    "clean-css-cli": "^5.7.0",
+    "terser": "^5.24.0"
+  }
+}
