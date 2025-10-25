@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Voluntário - ONG Amor Animal</title>
+</head>
+<body>
+  <header>
+    <h1>Cadastro de Voluntário</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Formulário de Inscrição</h2>
+      <form action="#" method="post">
+        <label>Nome Completo:</label>
+        <input type="text" name="nome" required>
+
+        <label>E-mail:</label>
+        <input type="email" name="email" required>
+
+        <label>CPF:</label>
+        <input type="text" name="cpf" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" placeholder="000.000.000-00" required>
+
+        <label>Telefone:</label>
+        <input type="tel" name="telefone" pattern="\(\d{2}\)\s\d{5}-\d{4}" placeholder="(11) 99999-9999" required>
+
+        <label>Data de Nascimento:</label>
+        <input type="date" name="nascimento" required>
+
+        <label>Endereço:</label>
+        <input type="text" name="endereco" required>
+
+        <label>CEP:</label>
+        <input type="text" name="cep" pattern="\d{5}-\d{3}" placeholder="00000-000" required>
+
+        <label>Cidade:</label>
+        <input type="text" name="cidade" required>
+
+        <label>Estado:</label>
+        <input type="text" name="estado" maxlength="2" placeholder="SP" required>
+
+        <button type="submit">Enviar Cadastro</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 ONG Amor Animal</p>
+  </footer>
+</body>
+</html>
